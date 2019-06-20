@@ -6,4 +6,36 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/LogoTemp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="80dp"
+            app:srcCompat="@drawable/logotemp" />
+
+        <Button
+            android:id="@+id/BotonRegistro"
+            android:layout_width="265dp"
+            android:layout_height="wrap_content"
+            android:text="registrate"
+            android:textSize="40sp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="100dp"/>
+
+        <Button
+            android:id="@+id/BotonIngresar"
+            android:layout_width="265dp"
+            android:layout_height="wrap_content"
+            android:text="Ingresar"
+            android:textSize="40sp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="10dp"/>
+    </LinearLayout>
+
 </android.support.constraint.ConstraintLayout>
