@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/background"
     tools:context=".MainActivity">
 
     <LinearLayout
@@ -23,19 +24,21 @@
             android:id="@+id/BotonRegistro"
             android:layout_width="265dp"
             android:layout_height="wrap_content"
-            android:text="registrate"
-            android:textSize="40sp"
             android:layout_marginLeft="80dp"
-            android:layout_marginTop="100dp"/>
+            android:layout_marginTop="100dp"
+            android:background="@color/common_google_signin_btn_text_dark_disabled"
+            android:text="registrate"
+            android:textSize="40sp" />
 
         <Button
             android:id="@+id/BotonIngresar"
             android:layout_width="265dp"
             android:layout_height="wrap_content"
-            android:text="Ingresar"
-            android:textSize="40sp"
             android:layout_marginLeft="80dp"
-            android:layout_marginTop="10dp"/>
+            android:layout_marginTop="10dp"
+            android:background="@color/common_google_signin_btn_text_dark_disabled"
+            android:text="Ingresar"
+            android:textSize="40sp" />
     </LinearLayout>
 
-</android.support.constraint.ConstraintLayout>
+</RelativeLayout>
